@@ -1,0 +1,1 @@
+<div class="footer-nav">	<ul>		<li class=""><a href="<?php echo base_url(); ?>exam-center">Exam Centre</a></li>		<li><a href="#">Membership</a></li>		<li><a href="#">How to pay</a></li>		<li><a href="#">FAQ</a></li>		<li><a href="#">About us</a></li>		<li><a href="#">Contact us</a></li>	</ul>				</div>

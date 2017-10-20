@@ -1,0 +1,248 @@
+.main-home-slider{
+	float:left;	
+	min-height:300px;
+	height:auto;
+	width:100%;
+	background:url('../images/home-slider/1.jpg');
+	background-size: 100% 350px;
+    position:relative;
+}
+
+.main-home-slider .social-icon-cover{
+    width: 115px;
+    height: 50px;
+    position:absolute;
+    bottom:20px;
+    left: 20px;
+}
+
+.main-home-slider .signin{
+	height:180px;
+	margin-top: 40px;
+	margin-right: 30px;
+}
+
+.main-home-slider .signin .header{
+	height:35px;
+	width:100%;
+	background: #dee3df;	
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	color: #00495C;
+	padding: 5px;
+	background:rgba(218, 255, 232, 0.40);
+}
+
+.main-home-slider .signin .body{
+	height:180px;
+	width:100%;
+	background: #D2D2D2;	
+	background:rgba(255,255,255,0.5);
+	padding: 25px;
+}
+.main-home-slider .signin .body input {
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border:1px solid #e5e5e5;
+    height: 30px !important;
+}
+
+.main-home-body{
+	float:left;	
+	min-height:250px;
+	height:auto;
+	width:100%;
+	padding: 15px 0px;
+}
+
+.main-home-body .start-exam-button{	
+	height:50px;
+	width:90%;
+	background: #003340;
+	padding: 15px 0px;
+	line-height: 20px;
+	text-align: center;
+	
+}
+
+.main-home-body .start-exam-button a{	
+	color: #fff;
+	font-size: 24px;
+}
+
+.main-home-body .popular-course,.exam-taker{
+	height:auto;
+	min-height:370px;
+	width:90%;
+	background: #ffffff;
+	margin: 10px 0;
+	line-height: 20px;
+	text-align: center;
+	border:1px solid #e5e5e5;
+}
+
+.popular-course .header,.exam-taker .header{
+	height:35px;
+	width:100%;
+	background: #FAFAFA;
+	line-height: 33px;
+	text-align: center;
+	font-size: 16px;
+	color: #00495C;
+	border-bottom:1px solid #cccccc;
+    margin-bottom: 7px;
+}
+.exam-taker .exam-taker-row{
+    height:78px;
+    width:100%;
+    border-bottom:1px solid #dee3df;
+}
+.exam-taker .exam-taker-row img{
+    margin: 0 5px;
+}
+.exam-taker .exam-taker-row .exam-date {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    float: left;
+    font-size: 11x;
+}
+.exam-taker .exam-taker-row .user-name{
+    text-align: left;
+    height: auto;
+    width: 50%;
+    float: left;
+    font-size: 12x;
+    font-weight: bold;
+}
+.exam-taker .exam-taker-row .score-exam-time {
+    text-align: left;
+    height: auto;
+    width: 74%;
+    float: left;
+    font-size: 12x;
+    margin-top: 5px;
+}
+.exam-taker .exam-taker-row .score-exam-time .exam-score{
+    float: left;
+    text-align: left;
+}
+.exam-taker .exam-taker-row .score-exam-time .exam-time{
+    float: right;
+    text-align: right;
+}
+.main-home-body .search{	
+	height:50px;
+	width:100%;	
+	padding: 10px 0px;
+	line-height: 20px;
+	text-align: center;
+	
+}
+.main-home-body .search input{
+    float: left;
+	height:32px;
+	width:78%;
+	padding: 6px;
+	line-height: 20px;
+	text-align: left;
+    color: #000;
+    border:1px solid #33494E;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.main-home-body .search button{
+    float: left;
+	height:20px;
+	width:21%;
+    margin-left:3px;
+    line-height: 1px;
+	padding: 15px 0px;
+    font-weight: bold;
+    border:1px solid #33494E;
+    background: #dee3df;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.main-home-body .signup{	
+	height:auto;
+	min-height:370px;
+	width:100%;
+	background: #F9FAFC;
+	margin: 10px auto;
+    border-bottom:1px solid #cccccc;
+}
+
+.main-home-body .signup .header{	
+	height:35px;
+	width:100%;
+	background: #FAFAFA;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	color: #00495C;
+	border-bottom:1px solid #cccccc;
+	padding: 5px;
+}
+
+.main-home-body .signup .body{	
+	height:auto;
+	width:100%;
+	padding: 18px;
+	overflow: auto;
+    background: #ffffff;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.main-home-body .signup .body input,select {
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border:1px solid #ccc;
+    background: #f1f1f1;
+
+}
+.popular-course ul{
+    text-decoration:none !important;
+    padding: 0;
+}
+.popular-course ul li{
+    float:left;
+    padding:3px;
+    list-style-type:none;
+    width:100%;
+}
+.popular-course ul li a{
+    text-decoration: underline;
+    line-height: 33px;
+    color:#00495c;
+}
+.popular-course ul li .exam-name-wrapper{
+    float: left;
+    height: 30px;
+    width: 70%;
+    background-color:#F1F1F1;
+    border:1px solid #CCCCCC;
+    margin: 3px 5px;
+    line-height:26px;
+}
+
+/* Signin signup */
+.center-div-parent {
+    display: flex;
+    align-items: center;
+}
+.center-div-child{margin:10px auto !important;}

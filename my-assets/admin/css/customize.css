@@ -1,0 +1,62 @@
+#div.table_border_color{border: 1px solid #000 important!;}
+.required{color:#ff0000 !important!;}
+.red_color {color:#ff0000 !important;}
+#div.table_border_color{border: 1px solid #000 !important;}
+.navbar-default{
+	background-color: #f8f8f8 !important;
+    border-color: #d9edf7 !important;
+}
+#page-wrapper {
+    border-left: 1px solid #d9edf7 !important;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+	border: 1px solid #eee;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #ddd;
+    line-height: 16px;
+    padding: 6px;
+    vertical-align: top;
+    color:#323232;
+    font-size:14px !important;
+    font-family:Arial,"Times New Roman",sans-serif;
+}
+.table a {
+    color:#5c8ff5 !important;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #fcfcfc;
+}
+.input-sm {
+   float:right !important;
+}
+.fa{cursor:pointer;}
+.panel-footer {
+    background-color: #D9EDF7;
+    padding: 0px 15px !important;
+}
+#loader1,#loader2,#loader3{
+   display:none;
+}
+.closeRow{
+   color: red;
+   font-size: 25px;
+   cursor: pointer;
+}
+#imagePreview,.option{
+    width: 180px;
+    height: 100px;
+    max-height: 100px;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    display: inline-block;
+}
+.questions{
+    margin-left: 25px;
+}

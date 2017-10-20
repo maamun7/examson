@@ -1,0 +1,1 @@
+<div class="exam-activity-nav">	<ul>		<?php 		if (!empty($left_menu)) {			foreach ($left_menu as $key => $value) {		?>			<li class="<?php echo $value['class']; ?>">				<a href="<?=base_url()?><?php echo $value['url']; ?>" > <?php echo $value['label']; ?></a>			</li>		<?php			}		}		?>	</ul>				</div>

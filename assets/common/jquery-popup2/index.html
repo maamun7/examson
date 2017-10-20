@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Document</title>
+
+	    
+    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="baze.modal.css">	
+    <script src="baze.modal.js"></script>
+</head>
+<body>
+    <button data-baze-modal data-target="#modal1">click</button>
+    <button id="ngehe" data-target="#modal2">click</button>
+
+    <input type="text">
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <input type="text">
+
+    <div class="bzm-content" id="modal1" data-title="Hello World">
+        <p>Content 1</p>
+    </div>
+
+    <div class="bzm-content" id="modal2" data-title="Modal 2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque aspernatur, non odio! Molestias similique officiis, non magni voluptates architecto quos optio dignissimos placeat adipisci ad nisi, vel obcaecati error! Repellendus.</p>
+
+        <ul>
+            <li>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur omnis, at deserunt, accusantium repellendus totam deleniti sequi tempore cum sapiente nemo amet molestiae ea. Dolorum, totam dolore commodi vero possimus.</p>
+            </li>
+            <li>
+                <p>Dignissimos ex, eos quas voluptas laborum, cupiditate obcaecati impedit in fugit eligendi sint adipisci aspernatur natus? Error rerum repudiandae provident alias impedit, assumenda hic quod laudantium. Consequuntur similique, repellendus expedita.</p>
+            </li>
+        </ul>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime velit, labore quisquam autem ipsum eaque recusandae unde, et deleniti, magni aperiam vitae deserunt perferendis quam. Eius commodi aliquid soluta! Iure?</p>
+    </div>
+
+    <script>
+        var elems = $('[data-baze-modal]');
+
+        elems.bazeModal({
+            onOpen: function () {
+                alert('opened');
+            },
+            onClose: function () {
+                alert('closed');
+            }
+        });
+
+        $('#ngehe').bazeModal();
+    </script>
+</body>
+</html>

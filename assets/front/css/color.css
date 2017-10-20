@@ -1,0 +1,542 @@
+/* TEAL COLOR STYLES */
+
+/* BASIC STYLES
+----------------------------------------------------------------------------- */
+
+blockquote{
+    background: #f7f7f7 url('../img/colors/teal/blockquote-arrow.png') -1px center no-repeat;
+    border-left: 5px solid #ffffff;
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+.text-color{
+    color: #ffffff !important;
+}
+
+
+/* CHECK LIST
+----------------------------------------------------------------------------- */
+.check-list li{
+    background: url('../img/colors/teal/check-list.png') no-repeat;
+}
+
+
+/* TOP HEADER BAR
+----------------------------------------------------------------------------- */
+.top-bar a.close-frame{
+    background: url('../img/colors/teal/close-frame.png') no-repeat 0 7px;
+}
+
+.top-bar a.close-frame:hover{
+    color: #ffffff;
+}
+
+.top-bar .content-right a.register{
+    background: url('../img/colors/teal/join-now.png') no-repeat 0 7px;
+}
+
+.top-bar .content-right a.register:hover{
+    color: #ffffff;
+}
+.top-bar .content-right .contact-info{
+    background: url('../img/colors/teal/phone.png') no-repeat 0 7px;
+}
+
+
+/* HEADER
+----------------------------------------------------------------------------- */
+/* MAIN NAVIGATION
+----------------------------------------------------------------------------- */
+.icon-home{
+    background: url('../img/colors/teal/icon-home.png') no-repeat;
+    background-position:  -0px -17px;
+}
+
+.icon-about{
+    background: url('../img/colors/teal/icon-about.png') no-repeat;
+    background-position:  -0px -17px;
+}
+.icon-portfolio{
+    background: url('../img/colors/teal/icon-portfolio.png') no-repeat;
+    background-position:  -0px -17px;
+}
+
+.icon-blog{   
+    background: url('../img/colors/teal/icon-blog.png') no-repeat;
+    background-position:  -0px -17px;
+}
+
+.icon-contact{
+    background: url('../img/colors/teal/icon-contact.png') no-repeat;
+    background-position:  -0px -17px;
+}
+
+#nav li.active{
+    border-bottom: 5px solid #ffffff;
+    background: url('../img/colors/teal/menu-arrow.png') no-repeat 50% 101%;
+}
+
+#nav li ul li a:hover{
+    color: #ffffff;
+}
+
+#nav li ul li:first-child{
+    border-top: 2px solid #ffffff;
+}
+
+
+/* CONTENT WRAPPER
+----------------------------------------------------------------------------- */
+.content-wrapper{ 
+    border-top: 15px solid #ffffff;
+}
+
+/* PAGE TITLE
+----------------------------------------------------------------------------- */
+.page-title span{
+    color: #ffffff;
+}
+
+/* DIVIDER WITH TITLE
+----------------------------------------------------------------------------- */
+.divider-with-title a.title-link:hover{
+    color: #ffffff;
+}
+
+/* HOME PAGE
+----------------------------------------------------------------------------- */
+.entry-note{
+    background: url('../img/colors/teal/entry-note.png') no-repeat 40px 0;
+}
+
+.team.home p.position{
+    color: #ffffff;
+}
+.nivoSlider.product-slider{
+    background: #fff url('../img/colors/teal/loading.gif') no-repeat 50% 50%;
+}
+
+.product-slider-wrap .nivo-controlNav{
+    background: #ffffff;
+}
+
+.product-date{
+    color: #ffffff;
+}
+
+
+.service-home h1:hover,
+.service-home h2:hover,
+.service-home h3:hover,
+.service-home h4:hover,
+.service-home h5:hover,
+.service-home h6:hover{
+        color: #ffffff;
+}
+
+
+.service-home .service-mask{
+    background: url('../img/colors/teal/service-mask.png') no-repeat;
+    top: -1px;
+}
+
+.service-home .service-1{
+    background-image: url('../img/colors/teal/service-1.png');
+}
+
+.service-home .service-2{
+    background-image: url('../img/colors/teal/service-2.png');
+}
+
+.service-home .service-3{
+    background-image: url('../img/colors/teal/service-3.png');
+}
+
+.service-home .service-4{
+    background-image: url('../img/colors/teal/service-4.png');
+}
+
+.testimonial-text-container{
+    border-bottom: 10px solid #ffffff;
+}
+
+.testimonial-text-container:after{
+    content: "";
+    display: block;
+    background: url('../img/colors/teal/entry-note.png') no-repeat;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    bottom: -34px;
+}
+
+
+/* ANYTHING SLIDER
+----------------------------------------------------------------------------- */
+.slide-elements .in-color{
+    color: #ffffff;
+}
+
+.slide-elements h3 span{
+    color: #ffffff;
+}
+
+.anythingSlider-default .back:hover{
+    background: #ffffff;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.anythingSlider-default .forward:hover{
+    background: #ffffff;
+
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* ABOUT PAGE
+----------------------------------------------------------------------------- */
+.one-third-slider .nivoSlider{
+    background: #fff url('../img/colors/teal//loading.gif') no-repeat 50% 50%;
+}
+
+.one-third-slider .nivo-controlNav a.nivo-control.active{
+    background: url('../img/colors/teal/slider-btn-small-active.png') no-repeat;
+}
+
+.one-third-slider .nivo-controlNav{
+    background: #ffffff;
+}
+
+.carousel-nav li a.next:hover{
+    background-color: #ffffff;
+}
+.carousel-nav li a.prev:hover{
+    background-color: #ffffff;
+}
+
+.team-social li.facebook a{
+    background: url('../img/colors/teal/team-facebook.png') no-repeat;
+    background-position: -0px -20px;
+}
+
+/* DRIBBBLE */
+.team-social li.dribbble a{
+    background: url('../img/colors/teal/team-dribbble.png') no-repeat;
+    background-position: -0px -20px;
+}
+
+/* RSS */
+.team-social li.rss a{
+    background: url('../img/colors/teal/team-rss.png') no-repeat;
+    background-position: -0px -20px;
+}
+
+/* SKYPE */
+.team-social li.skype a{
+    background: url('../img/colors/teal/team-skype.png') no-repeat;
+    background-position: -0px -20px;
+}
+
+/* TWITTER */
+.team-social li.twitter a{
+    background: url('../img/colors/teal/team-twitter.png') no-repeat;
+    background-position: -0px -20px;
+}
+
+
+/* LINKEDIN */
+.team-social li.linkedin a{
+    background: url('../img/colors/teal/team-linkedin.png') no-repeat;
+    background-position: -0px -20px;
+}
+
+
+/* BEHANCE */
+.team-social li.behance{
+    padding-top: 1px;
+}
+.team-social li.behance a{
+    background: url('../img/colors/teal/team-behance.png') no-repeat;
+    background-position: -0px -0px;
+}
+
+.client-carousel a.prev:hover{
+    background: #ffffff url('../img/carousel-client-left.png') no-repeat 50% 50%;
+}
+
+
+.client-carousel a.next:hover{
+    background: #ffffff url('../img/carousel-client-right.png') no-repeat 50% 50%;
+}
+
+
+/* SERVICES PAGE
+----------------------------------------------------------------------------- */
+.service:hover .icon{
+    background-color: #ffffff;
+}
+
+/* PRICING TABLES
+----------------------------------------------------------------------------- */
+.pricing-style-1 .pricing-table-col.selected .head{
+    background: -moz-linear-gradient(top, rgba(6,168,153,1) 0%, rgba(2,120,109,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(6,168,153,1)), color-stop(100%,rgba(2,120,109,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(6,168,153,1) 0%,rgba(2,120,109,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(6,168,153,1) 0%,rgba(2,120,109,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(6,168,153,1) 0%,rgba(2,120,109,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(6,168,153,1) 0%,rgba(2,120,109,1) 100%); /* W3C */
+    height: 105px;
+    position: relative;
+}
+
+.pricing-style-1 .pricing-table-col.selected h1,
+.pricing-style-1 .pricing-table-col.selected h2,
+.pricing-style-1 .pricing-table-col.selected h3,
+.pricing-style-1 .pricing-table-col.selected h4,
+.pricing-style-1 .pricing-table-col.selected h5,
+.pricing-style-1 .pricing-table-col.selected h6{
+    border-bottom: 1px solid #108278 !important;
+}
+
+.pricing-table-col.selected .head span{
+    color: #79bab4;
+}
+
+.pricing-check{
+    background: url('../img/colors/teal/pricing-check.png') no-repeat center center;
+}
+
+.pricing-table-col.selected .head span.price{
+    border-top: 1px solid #2ca79b;
+}
+
+
+/* ERROR PAGE
+----------------------------------------------------------------------------- */
+.error-img{
+    background: url('../img/colors/teal/404.png') no-repeat center;
+}
+
+span.star-mark{
+    color: #ffffff;
+}
+
+.search-submit{
+    background: url('../img/colors/teal/btn.png') repeat-x;
+    background-position: -0px -36px;
+    border: 1px solid #108278;
+}
+
+/* PORTFOLIO PAGES
+----------------------------------------------------------------------------- */
+#portfolio-filter li:hover a{
+    color: #ffffff;
+}
+
+#portfolio-filter li.active,
+#portfolio-filter li.active a{
+    color: #ffffff;
+}
+
+.portfolio:hover figcaption{
+    background: url('../img/colors/teal/portfolio-arrow-hover.png') no-repeat center 0;
+    border-top: 2px solid #ffffff;
+}
+
+.pagination li:hover, .pagination li.active{
+    background: #ffffff;
+}
+
+
+
+
+/* BLOG PAGES
+----------------------------------------------------------------------------- */
+.blog-post .post-author{
+    color: #ffffff;
+}
+
+.post-info-container iframe{
+    background: url('../img/colors/teal/loading.gif') no-repeat 50% 50%;
+}
+
+.post-info-container .post-meta{
+    background: #ffffff;
+}
+
+.post-comments .comments-li .comment .comment-meta a:hover{
+    color: #ffffff;
+}
+
+#comment-reply{
+    background: url('../img/colors/teal/btn.png') repeat-x;
+    background-position: -0px -36px;
+    border: 1px solid #108278;
+}
+
+.post-body .post-category:hover{
+    background: #ffffff;
+}
+
+.load-more .btn:hover{
+    background: #ffffff;
+}
+
+/* CONTACT PAGES
+----------------------------------------------------------------------------- */
+.contact-form .submit{
+    background: url('../img/colors/teal/btn.png') repeat-x;
+    background-position: -0px -36px;
+}
+
+.web a{
+    color: #ffffff;
+}
+
+.contact-form .submit{
+    border: 1px solid #108278;
+}
+
+
+/* SIDEBAR
+----------------------------------------------------------------------------- */
+.aside-widgets li a:hover{
+    color: #ffffff;
+}
+
+.aside-widgets .arrow-list li:hover{
+    background: url('../img/colors/teal/aside-list-hover.png') no-repeat 0 center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.posts-li a.post-li-meta{
+    color: #ffffff;
+}
+
+.tweet-list li a{
+    color: #ffffff;
+}
+
+/* video sidebar widget
+----------------------------------------------------------------------------- */
+.carousel-pagination-wrapper{
+    background: #ffffff;
+}
+.carousel-pagination a.selected{
+    background: url('../img/colors/teal/slider-btn-small-active.png') no-repeat;
+}
+
+/* FOOTER
+----------------------------------------------------------------------------- */
+.footer-social li.facebook{
+    background: url('../img/colors/teal/facebook.png') no-repeat;
+    background-position: -0px -27px;
+}
+/* MYSPACE */
+.footer-social li.myspace{
+    background: url('../img/colors/teal/myspace.png') no-repeat;
+    background-position: -0px -27px;
+}
+
+/* TWITTER */
+.footer-social li.twitter{
+    background: url('../img/colors/teal/twitter.png') no-repeat;
+    background-position: -0px -27px;
+}
+
+/* DRIBBBLE */
+.footer-social li.dribbble{
+    background: url('../img/colors/teal/dribbble.png') no-repeat;
+    background-position: -0px -27px;
+}
+
+/* SKYPE */
+.footer-social li.skype{
+    background: url('../img/colors/teal/skype.png') no-repeat;
+    background-position: -0px -27px;
+}
+
+
+#footer .footer-title span{
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer-category li{
+    background: #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer-category li:hover{
+    background: #035049;    
+    border-bottom: 1px solid #8f888f;
+    border-top: 1px solid #1b171b;
+}
+
+/* ELEMENTS
+----------------------------------------------------------------------------- */
+/* ACCORDION */
+
+.accordion .active a{
+    background: #Fff url('../img/colors/teal/toggle-close.png') no-repeat left center !important;
+    color: #ffffff;
+}
+
+.accordion .title a:hover{
+    color: #ffffff;
+}
+
+/* BUTTONS */
+.btn{
+    background: url('../img/colors/teal/btn.png') repeat-x;
+    background-position: -0px -36px;
+    border: 1px solid #108278;
+}
+
+
+/* TABS */
+.tabs li.active{
+    border-top: 2px solid #ffffff;
+}
+
+.tabs li a:hover, .tabs li.active a{
+    color: #ffffff;
+}
+
+.vertical-toggle .active .text{
+    background: #fff url('../img/colors/teal/toggle-close.png') no-repeat right center !important;
+}
+
+/* NIVO SLIDER */
+.nivoSlider{
+    background: url('../img/colors/teal/loading.gif') no-repeat 50% 50%;
+}
+
+.nivoSlider.blog-slider{
+    background: #fff url('../img/colors/teal/loading.gif') no-repeat 50% 50%;
+}
+
+.nivo-controlNav a.active {
+    background: url('../img/colors/teal/bullet-active.png') no-repeat;
+}
+
+.nivo-prevNav:hover{
+    background: #ffffff url('../img/blog/slider-arrow-left.png') center center no-repeat !important;      
+}
+
+.nivo-nextNav:hover{
+    background: #ffffff url('../img/blog/slider-arrow-right.png') center center no-repeat !important;      
+}
